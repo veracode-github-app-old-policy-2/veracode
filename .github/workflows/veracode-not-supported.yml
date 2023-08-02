@@ -38,5 +38,5 @@ jobs:
       - name: save results file
         uses: actions/upload-artifact@v3
         with:
-          name: not-supported-error
+          name: veracode-error
           path: error.txt
