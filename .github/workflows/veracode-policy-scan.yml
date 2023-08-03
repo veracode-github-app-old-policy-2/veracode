@@ -39,7 +39,7 @@ jobs:
           vid: '${{ secrets.API_ID }}'
           vkey: '${{ secrets.API_KEY }}'
           scanpollinginterval: 30
-          scantimeout: 1
+          scantimeout: 15
         
   get-policy-flaws:
     runs-on: ubuntu-latest
